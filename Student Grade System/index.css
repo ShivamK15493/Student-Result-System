@@ -1,0 +1,64 @@
+.container
+{
+    width: 18rem;
+    height: 18rem;
+    background-color: red;
+    border: 0.1rem solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input
+{
+    width: 17.8rem;
+    height: 1.5rem;
+}
+th
+{
+    width: 100%;
+    color: white;
+    background-color: black;
+    height: 1.8rem;
+}
+tr
+{
+    color: white;
+    background-color: black;
+    height: 1.8rem;
+}
+.row
+{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.search
+{
+    margin-top: 0.4rem;
+    width: 4rem;
+    height: 1.5rem;
+    background-color: rgb(26, 181, 233);
+    border: 0.1rem solid black;
+    margin-bottom: 0.4rem;
+    cursor: pointer;
+}
+.reset
+{
+    margin-top: 0.4rem;
+    width: 4rem;
+    height: 1.5rem;
+    background-color: rgb(218, 8, 8);
+    border: 0.1rem solid black;
+    margin-bottom: 0.4rem;
+    cursor: pointer;
+}
+.answer
+{
+    width: 18rem;
+    height: 1.6rem;
+    background-color: rgb(49, 241, 6);
+    border: 0.1rem solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
