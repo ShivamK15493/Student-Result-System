@@ -1,6 +1,10 @@
+let btn = document.getElementById("searching");
+let failure= "Fail";
 
-function searching()
+
+btn.addEventListener("click", function()
 {
+
     let num = parseInt(document.getElementById("inputBox").value);
     let result;
 
@@ -30,15 +34,20 @@ function searching()
     }
     else if(num>=0 && num<=33)
     {
-        result=num+": F :"+"Fail";
+           result=num+": F :"+ failure;
     }
        else
        {
         result="Error";
        }
      document.getElementById("res").innerText=result;
-   }
-function forgot()
-{
-    location.reload();
-}
+    })
+
+    let reloa = document.getElementById("forgot");
+
+    reloa.addEventListener("click",function()
+     {
+             
+        location.reload();
+
+     })
