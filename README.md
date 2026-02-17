@@ -24,3 +24,11 @@ Student Result System is an interactive web-based application built using HTML, 
   -->Assigns Grade <br>
   -->Displays marks status <br>
 </ol>
+
+<h2>🎯 Learning Objectives</h2>
+<ul>
+  <li>JavaScript conditional statements</li>
+  <li>Functions in JavaScript</li>
+  <li>Working with input fields</li>
+  <li>Work done flow</li>
+</ul>
