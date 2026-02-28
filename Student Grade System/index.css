@@ -3,12 +3,28 @@
     font-family: sans-serif;
     margin: 2rem;
 }
+body
+{
+    margin-top: 3rem;
+    font-family: sans-serif;
+}
+.main
+{
+    padding-top: 1rem;
+    width: 20rem;
+    height: auto;
+    background-color: rgb(24, 37, 37);
+    border-radius: 0.3rem;
+    padding-bottom: 1rem;
+}
 .container
 {
     width: 18rem;
     height: 18rem;
     background-color: red;
     border: 0.1rem solid black;
+    border-radius: 0.3rem;
+    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +32,8 @@
 input
 {
     width: 17.8rem;
-    height: 1.5rem;
+    height: 1.8rem;
+    border-radius: 0.3rem;
 }
 th
 {
@@ -31,7 +48,8 @@ tr
     background-color: black;
     height: 1.8rem;
 }
-.row
+.row,
+.mainarea
 {
     display: flex;
     justify-content: center;
